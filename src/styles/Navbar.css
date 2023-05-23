@@ -81,12 +81,14 @@
   .navbar .rightSide a {
     display: none;
   }
-
+  .navbar #open .hiddenLinks {
+   margin-left: 0;
+  }
   .navbar .rightSide {
     justify-content: flex-end;
-    padding-right: 50px;
+    padding-right: 0;
   }
-
+  
   .navbar .rightSide button {
     display: inherit;
   }
